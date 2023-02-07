@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image-box {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-box:first-child {
+  background-image: url(../HTML.CSS/caravan/chapter6/img/box1.jpg);
+}
+
+.image-box:nth-child(2) {
+  background-image: url(../HTML.CSS/caravan/chapter6/img/box2.jpg);
+}
+
+.image-box:nth-child(3) {
+  background-image: url(../HTML.CSS/caravan/chapter6/img/box3.jpg);
+}
+
+.image-box:last-child {
+  background-image: url(../HTML.CSS/caravan/chapter6/img/box4.jpg);
+}
