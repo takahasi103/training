@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  height: 400px;
+  background-image: url(../HTML.CSS/caravan/chapter7/img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-visual > h1 {
+  padding: 20px;
+}
+
+.category {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.category-box {
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
