@@ -13,32 +13,52 @@ header {
 main {
   width: 960px;
   margin: 0 auto;
-  display: inline-block;
+  padding: 50px 0;
+  display: flex;
 }
+
 .box {
+  position: relative;
   width: 300px;
+  padding: 10px;
   background-color: #EEEEEE;
 }
-
-.flow {
-  margin: 10px;
+.box:nth-child(1),
+.box:nth-child(2) {
+  margin-right: 30px;
 }
 
-.flow:first-child {
+
+.flow1,
+.flow2,
+.flow3 {
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.flow1 {
   background-image: url(../HTML.CSS/caravan/chapter9/img/flow01.png);
 }
 
-.flow:nth-child(2) {
+.flow2 {
   background-image: url(../HTML.CSS/caravan/chapter9/img/flow02.png);
 }
 
-.flow:last-child {
+.flow3 {
   background-image: url(../HTML.CSS/caravan/chapter9/img/flow03.png);
 }
 
-a {
+span {
   background-color: #FF9A4B;
   color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h3 {
+  margin: 15px 0 5px;
 }
 
 footer {
