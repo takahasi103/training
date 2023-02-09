@@ -5,39 +5,35 @@
 }
 
 header {
-  width: 100%;
   height: 50px;
-  background-color: red;
+  background-color: #f00;
 }
 
 .main-visual {
   width: 100%;
   height: 500px;
-  background-color: orange;
+  background-color: #ffa500;
 }
 
-main {
+.boxs {
   width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
 }
 
-.main-left,
-.main-right {
+.side-box {
   width: 230px;
   height: 1400px;
-  background-color: lightgreen;
+  background-color: #ccffcc;
 }
 
-.main-center {
+.center-box {
   width: 500px;
   height: 1400px;
-  background-color: green;
+  background-color: #00cc66;
 }
 
 footer {
-  width: 100%;
   height: 100px;
-  background-color: blue;
+  background-color: #0099ff;
 }
