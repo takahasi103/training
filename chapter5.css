@@ -4,94 +4,93 @@
   box-sizing: border-box;
 }
 
-header > h1 {
-  text-align: center;
-}
-
-nav {
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-nav li {
-  padding: 15px 20px;
-}
-
-main {
-  width: 800px;
-  padding: 50px 0;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-}
-
-.box:nth-child(1) {
-  background-color: #e6ffe9;
-}
-
-.box:nth-child(2) {
-  background-color: #cdffd3;
-}
-
-.box:nth-child(3) {
-  background-color: #eaffbd;
-}
-
-.box:nth-child(4) {
-  background-color: #93ffab;
-}
-
-.box:nth-child(5) {
-  background-color: #f3ffd8;
-}
-
-.box:nth-child(6) {
-  background-color: #edffbe;
-}
-
-.box:nth-child(7) {
-  background-color: #e9ffa5;
-}
-
-.box:nth-child(8) {
-  background-color: #e4ff8d;
-}
-
-.box:nth-child(9) {
-  background-color: #d9e5ff;
-}
-
-.box:nth-child(10) {
-  background-color: #bad3ff;
-}
-
-.box:nth-child(11) {
-  background-color: #a4c6ff;
-}
-
-.box:nth-child(12) {
-  background-color: #8eb8ff;
-}
-
-footer {
-  height: 120px;
-  text-align: center;
-  background-color: #808080;
-}
-
-footer > p {
-  color: #fff;
-  line-height: 120px;
-}
+ header {
+   text-align: center;
+ }
+ 
+ nav {
+   border-top: 1px solid #808080;
+   border-bottom: 1px solid #808080;
+ }
+ 
+ nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   margin: 15px auto;
+ }
+ 
+ nav li {
+   padding: 0 20px;
+ }
+ 
+ main {
+   width: 800px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   padding: 50px 0;
+ }
+ 
+ .box {
+   width: 200px;
+   height: 200px;
+ }
+ 
+ .box:first-child {
+   background-color: #e6ffe9;
+ }
+ 
+ .box:nth-child(2) {
+   background-color: #cbffd3;
+ }
+ 
+ .box:nth-child(3) {
+   background-color: #aeffab;
+ }
+ 
+ .box:nth-child(4) {
+   background-color: #93ffab;
+ }
+ 
+ .box:nth-child(5) {
+   background-color: #f3ffd8;
+ }
+ 
+ .box:nth-child(6) {
+   background-color: #edffbe;
+ }
+ 
+ .box:nth-child(7) {
+   background-color: #e9ffa5;
+ }
+ 
+ .box:nth-child(8) {
+   background-color: #e4ff8d;
+ }
+ 
+ .box:nth-child(9) {
+   background-color: #d9e5ff;
+ }
+ 
+ .box:nth-child(10) {
+   background-color: #bad3ff;
+ }
+ 
+ .box:nth-child(11) {
+   background-color: #a4d3ff;
+ }
+ .box:last-child {
+   background-color: #8eb8ff;
+ }
+ 
+ footer {
+   height: 120px;
+   color: #fff;
+   background-color: #c0c0c0;
+ }
+ 
+ footer p {
+   text-align: center;
+   line-height: 120px;
+ }
