@@ -6,22 +6,28 @@
 
 .main-visual {
   height: 400px;
+  width: 100%;
   background-image: url(../HTML.CSS/caravan/chapter7/img/mv.jpg);
   background-position: bottom;
   background-size: cover;
 }
 
-.main-visual > h1 {
+.main-visual h2 {
   padding: 20px;
+  color: #808080;
+}
+
+.main-box {
+  width: 840px;
+  padding: 50px 0;
+  margin: 0 auto;
 }
 
 .category {
-  width: 840px;
-  margin: 50px auto;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 30px 0;
 }
 
-.category-box {
-  border-bottom: 1px solid #c0c0c0;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+.category:first-child {
+  padding-top: 0;
 }
