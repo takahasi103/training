@@ -4,25 +4,25 @@
   box-sizing: border-box;
 }
 
-.image-box {
-  width: 100%;
+.box {
   height: 200px;
-  background-size: cover;
+  width: 100%;
   background-position: center;
+  background-size: cover;
 }
 
-.image-box:first-child {
+.box:first-child {
   background-image: url(../HTML.CSS/caravan/chapter6/img/box1.jpg);
 }
 
-.image-box:nth-child(2) {
+.box:nth-child(2) {
   background-image: url(../HTML.CSS/caravan/chapter6/img/box2.jpg);
 }
 
-.image-box:nth-child(3) {
+.box:nth-child(3) {
   background-image: url(../HTML.CSS/caravan/chapter6/img/box3.jpg);
 }
 
-.image-box:last-child {
+.box:last-child {
   background-image: url(../HTML.CSS/caravan/chapter6/img/box4.jpg);
 }
