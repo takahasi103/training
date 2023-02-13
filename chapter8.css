@@ -6,27 +6,20 @@
 
 main {
   width: 960px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
-.lists {
-  padding: 50px 0;
-}
-
-.lists ul {
+.list-box li {
   list-style: none;
-}
-
-.lists li {
   padding: 20px;
 }
 
-.lists li:nth-child(odd) {
+.list-box li:nth-child(odd) {
   background-color: #c8c8c8;
 }
 
-.boxs {
-  padding-bottom: 50px;
+.item-box {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -34,9 +27,9 @@ main {
 .box {
   width: 30%;
   height: 200px;
-  margin-right: 5%;
   margin-bottom: 40px;
-  background-color: #ff09;
+  margin-right: 5%;
+  background-color: #ff99;
 }
 
 .box:nth-child(3),
@@ -47,12 +40,12 @@ main {
 
 .box:nth-child(7),
 .box:nth-child(8),
-.box:last-child {
+.box:nth-child(9) {
   margin-bottom: 0;
 }
 
-.box:first-child,
+.box:nth-child(1),
 .box:nth-child(5),
-.box:last-child {
-  background-color: #ff8822;
+.box:nth-child(9) {
+  background-color: #ff8877;
 }
