@@ -5,6 +5,7 @@
 }
 
 header {
+  width: 100%;
   height: 50px;
   background-color: #FF9A4B;
 }
@@ -23,44 +24,45 @@ main {
 }
 
 .item-box span {
-  color: #fff;
-  background-color: #FF9A4B;
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #FF9A4B;
+  color: #fff;
 }
 
-.item-box:first-child,
+.item-box:nth-child(1),
 .item-box:nth-child(2) {
   margin-right: 30px;
+}
+
+.image-flow01 {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../HTML.CSS/caravan/chapter9/img/flow01.png);
+}
+
+.image-flow02 {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../HTML.CSS/caravan/chapter9/img/flow02.png);
+}
+
+.image-flow03 {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../HTML.CSS/caravan/chapter9/img/flow03.png);
 }
 
 .item-box h2 {
   margin: 15px 0 5px;
 }
 
-.image-box1 {
-  height: 150px;
-  background-image: url(../HTML.CSS/caravan/chapter9/img/flow01.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
-.image-box2 {
-  height: 150px;
-  background-image: url(../HTML.CSS/caravan/chapter9/img/flow02.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
-.image-box3 {
-  height: 150px;
-  background-image: url(../HTML.CSS/caravan/chapter9/img/flow03.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
 footer {
+  width: 100%;
   height: 50px;
   background-color: #AAAAAA;
 }
