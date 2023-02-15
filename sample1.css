@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.item {
+  max-width: 960px;
+  padding: 0 4%;
+  texet-aline: center
+}
+
+.site-title {
+  width: 120px;
+  padding: 10px 0;
+}
+
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+#header li {
+  margin-left: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.main-visual {
+  margin-bottom: 80px;
+}
+
+.main-visual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover
+}
