@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+#header li a {
+  color: #505050;
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -12,14 +20,20 @@
 }
 
 .item {
-  max-width: 960px;
+  max-width: 1200px;
   padding: 0 4%;
-  texet-aline: center
+  margin: 0 auto 100px auto;
+  text-align: center;
 }
 
 .site-title {
   width: 120px;
-  padding: 10px 0;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 10px 0;
+  background-color: #303030;
+  color: #fff;
 }
 
 #header ul {
@@ -44,4 +58,53 @@ li {
   max-width: 1920px;
   height: 600px;
   object-fit: cover
+}
+
+.section-title {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #808080;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.content-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#about .text {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bicycle li {
+  width: 32%;
+}
+
+#footer {
+  padding: 10px 0;
+  text-align: center;
 }
