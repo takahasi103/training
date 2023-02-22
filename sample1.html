@@ -1,63 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" >
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="sample1.css" />
-    <title>sample4</title>
+    <title>sample5</title>
   </head>
   
   <body>
-    <main>
-      <div class="flex">
-        <div class="image">
-          <img src="../HTML.CSS/caravan/img/japan.jpg">
-        </div>
-      
-        <div class="recipe">
-          <h1 class="page-title">ひよこ豆とアボカドのタコス</h1>
-          <p>たっぷりのひよこ豆とレンズ豆にアボカドとトマトを添えて、少しライムを絞ったら美味しいタコライスの出来上がりです。</p>
-          
-          <h2 class="content-title">材料(2人分)</h2>
-          <dl class="ingredient-list">
-            <dt>テキストテキスト</dt>
-            <dd>１個</dd>
-            <dt>テキストテキスト</dt>
-            <dd>１個</dd>
-            <dt>テキストテキスト</dt>
-            <dd>１個</dd>
-            <dt>テキストテキスト</dt>
-            <dd>１個</dd>
-            <dt>テキストテキスト</dt>
-            <dd>１個</dd>
-          </dl>
-          
-          <h2 class="content-title">作り方</h2>
-          <ol class="step-list">
-            <li>テキストテキストテキストテキスト</li>
-            <li>テキストテキストテキストテキスト</li>
-            <li>テキストテキストテキストテキスト</li>
-            <li>テキストテキストテキストテキスト</li>
-            <li>テキストテキストテキストテキスト</li>
-          </ol>
-        </div>
-      </div>
-      
-      <div class="btn">
-        <a href="#">レシピ一覧を見る</a>
-      </div>
-    </main>
+    <div id="mainvisual">
+      <img src="../HTML.CSS/caravan/img/mv.jpg">
+    </div>
     
-    <footer id="footer">
-      <ul class="sns">
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Facebook</a></li>
-      </ul>
-      <p>
-        <a href="https://code-step.com/demo/html/recipe2/">
-          © 2023 参考サイト Recipe Diary 
-        </a>
-      </p>
-    </footer>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">Wooden Jewelry</a>
+      </h1>
+      
+      <nav>
+        <ul>
+          <li><a href="#concept">Concept</a></li>
+          <li><a href="#work">Work</a></li>
+          <li>
+            <a href="mailto:xxxx@xx.com?subject=お問い合わせ&amp;body=サンプル">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="container">
+      <main>
+        <section id="concept" class="content">
+          <div class="img">
+            <img src="../HTML.CSS/caravan/img/road.jpg">
+          </div>
+          <div class="text">
+            <h2 class="section-title">私たちの考えるジュエリーとは</h2>
+            <span class="section-title-en">Concept</span>
+            <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </section>
+        
+        <section id="work" class="content">
+          <div class="text">
+            <h2 class="section-title">ハンドメイドにこだわる理由</h2>
+            <span class="section-title-en">Work</span>
+            <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="img">
+            <img src="../HTML.CSS/caravan/img/snow.jpg">
+          </div>
+        </section>
+      </main>
+      
+      <footer id="footer">
+        <h1 class="site-title">
+          <a href="#">Wooden Jewelry</a>
+        </h1>
+        <p>
+          <a href="https://code-step.com/demo/html/brand/">
+            © 2023 参考サイト　Wooden Jewelry
+          </a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
